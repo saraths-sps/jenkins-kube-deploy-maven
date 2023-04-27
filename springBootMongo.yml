@@ -60,7 +60,7 @@ spec:
     spec:
       containers:
       - name: spring-boot-mongo
-        image: nginx
+        image: indium01/spring-boot-mongo
         ports:
         - containerPort: 8080
         env:
