@@ -60,7 +60,7 @@ spec:
     spec:
       containers:
       - name: spring-boot-mongo
-        image: nginx
+        image: sarathsps123/trial
         ports:
         - containerPort: 8080
         env:
