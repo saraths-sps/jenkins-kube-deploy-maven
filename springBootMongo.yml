@@ -48,7 +48,7 @@ kind: Deployment
 metadata:
   name: springappdeployment
 spec:
-  replicas: 2
+  replicas: 1
   selector:
     matchLabels:
       app: springapp
@@ -60,7 +60,7 @@ spec:
     spec:
       containers:
       - name: spring-boot-mongo
-        image: sarathsps123/helm-deployment
+        image: sarathsps123/trial
         ports:
         - containerPort: 8080
         env:
